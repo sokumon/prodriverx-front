@@ -1,0 +1,7 @@
+#!/bin/sh
+apt install xdotool
+apt-get remove python-pip python3-pip
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python get-pip.py
+
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
