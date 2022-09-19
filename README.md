@@ -18,4 +18,7 @@ Run the following command on Terminal
   sudo ./pdx
   sudo dpkg -i python-pdx_1.0.0-1_all.deb
 ```
-
+To Take SS of the Other applications type the app name 
+```bash
+  pdx --ss Appname
+```
