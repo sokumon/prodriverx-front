@@ -22,3 +22,7 @@ To Take SS of the Other applications type the app name
 ```bash
   pdx --ss Appname
 ```
+To make the pdf after all screenshots are done 
+```bash
+  pdx --ss make
+```
