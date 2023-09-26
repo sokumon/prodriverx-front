@@ -3,11 +3,6 @@
 
 Making pdfs easy for our code outputs:)
 
-
-
-
-
-
 ## How to install it on your college PC?
 
 Run the following command on Terminal 
@@ -26,3 +21,5 @@ To make the pdf after all screenshots are done
 ```bash
   pdx --ss make
 ```
+
+### New version

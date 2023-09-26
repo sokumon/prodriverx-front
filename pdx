@@ -1,7 +1,6 @@
 #!/bin/sh
+apt update
+apt install python3 python3
 apt install xdotool
-apt-get remove python-pip python3-pip
-wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-python get-pip.py
-
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+dpkg -i python3-pdx_1.0.0-1_all.deb
